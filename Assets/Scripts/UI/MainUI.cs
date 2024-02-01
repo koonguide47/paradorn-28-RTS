@@ -5,7 +5,13 @@ using UnityEngine;
 
 public class MainUI : MonoBehaviour
 {
-    private static MainUI instance;
+    [SerializeField] private GameObject selectionMarker; 
+    public GameObject SelectionMarker
+    {
+        get { return selectionMarker; }
+    }
+
+    public static MainUI instance;
         void Awake()
     {
         instance = this;
