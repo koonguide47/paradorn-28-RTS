@@ -340,6 +340,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6911265403836052174, guid: d1a186ea6cc3df243a9de96770652a6b, type: 3}
   m_PrefabInstance: {fileID: 481877341}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &481877343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4496205138939291735, guid: d1a186ea6cc3df243a9de96770652a6b, type: 3}
+  m_PrefabInstance: {fileID: 481877341}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8e113acc3e7f44c817bf340754553c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &510202578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 510202580}
+  - component: {fileID: 510202579}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &510202579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510202578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588a86412786cb84fb30a9e8b0b65fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myFaction: {fileID: 2147027448}
+  enemyFaction: {fileID: 481877343}
+  factions:
+  - {fileID: 2147027448}
+  - {fileID: 481877343}
+--- !u!4 &510202580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510202578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5234505, y: 14.701321, z: 1.3195553}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5928,6 +5988,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectionMarker: {fileID: 3862075620324023155, guid: 72d5546cd3545b4418f88352b77a8b0c, type: 3}
+  unitCountText: {fileID: 0}
+  foodText: {fileID: 0}
+  woodText: {fileID: 0}
+  goldText: {fileID: 0}
+  stoneText: {fileID: 0}
 --- !u!1 &1616507949
 GameObject:
   m_ObjectHideFlags: 0
@@ -6327,6 +6392,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   curUnit: {fileID: 0}
+--- !u!114 &2147027448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
+  m_PrefabInstance: {fileID: 2147027444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147027446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8e113acc3e7f44c817bf340754553c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2147027449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6354,3 +6430,4 @@ SceneRoots:
   - {fileID: 1862704616}
   - {fileID: 438801129}
   - {fileID: 903554497}
+  - {fileID: 510202580}
