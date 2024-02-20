@@ -8,8 +8,8 @@ public class InfoManager : MonoBehaviour
 {
     [SerializeField] private Image unitPic, hpIcon, rsrcIcon, moveIcon, atkIcon, amrIcon, vslRngIcon, wpRngIcon;
     [SerializeField] private TextMeshProUGUI nameTxt, hpTxt, rsrcTxt, moveTxt, atkTxt, amrTxt, vslRngTxt, wpRngTxt;
-    
-    private static InfoManager instance;
+
+    public static InfoManager instance;
     void Awake()
     {
         instance = this;
