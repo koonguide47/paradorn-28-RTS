@@ -23,15 +23,28 @@ public class Building : Structure
     [SerializeField] private float curUnitWaitTime = 0f;
 
     [SerializeField] private bool isFuntioal;
-    public bool IsFunctional
+    public bool isFunctional
     {
-        get { return IsFunctional;  }
-        set { IsFunctional = value; }
+        get { return isFuntioal;  }
+        set { isFunctional = value; }
     }
+
+    [SerializeField] private bool isHQ;
+    public bool IsHQ
+    {
+        get { return isHQ; }
+    }
+
+    [SerializeField] private float intoTheGround = 5f;
+    public float IntoTheGround
+    {
+        get { return intoTheGround; }
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
-        curHP = maxHP;
+        
     }
 
     // Update is called once per frame
@@ -61,7 +74,7 @@ public class Building : Structure
         }
 
         if (Input.GetKeyDown(KeyCode.H))
-            ToCreateUnit(2);
+            ToCreateUnit(1);
         
 
         if ((recruitList.Count > 0) && (recruitList[0] != null))

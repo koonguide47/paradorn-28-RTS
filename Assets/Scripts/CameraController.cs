@@ -6,6 +6,10 @@ using UnityEngine;
 public class Cameracontroller : MonoBehaviour
 {
     [SerializeField] private Camera cam;
+    public Camera Cam
+    {
+        get { return cam; }
+    }
 
     [Header("Move")] private float moveSpeed;
 

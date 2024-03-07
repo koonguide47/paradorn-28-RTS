@@ -48,7 +48,7 @@ public class ActionManager : MonoBehaviour
     
     private void ShowCreateUnitButtons(Building b)
     {
-        if (b.IsFunctional)
+        if (b.isFunctional)
         {
             for (int i = 0; i < b.UnitPrefabs.Length; i++)
             {
