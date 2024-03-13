@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 5334845057429120914}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -2.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -148,21 +148,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   structureName: Headquarter
   structurePic: {fileID: 21300000, guid: d507d95c37a43794181eca2fabba271a, type: 3}
-  curHP: 0
+  curHP: 1
   maxHP: 100
-  faction: {fileID: 0}
+  faction: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
   selectionVisual: {fileID: 3548554754536736378}
+  structureCost:
+    food: 0
+    wood: 0
+    gold: 0
+    stone: 0
   spawnPoint: {fileID: 1655317186168946476}
   rallyPoint: {fileID: 3736475155980447781}
   unitPrefabs:
   - {fileID: 186328, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
-  - {fileID: 186328, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
   - {fileID: 197842, guid: 2168695577a8d3f4eb919edbd5249635, type: 3}
+  - {fileID: 1695133974116794, guid: e5b64b98570ff994e899fa77f5439809, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
   isFuntioal: 1
+  isHQ: 0
+  intoTheGround: 5
 --- !u!65 &5849718314562758371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -618,7 +625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4531826792167919712, guid: 512f3a174ddbc754b9a82b15d6703302, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.7
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4531826792167919712, guid: 512f3a174ddbc754b9a82b15d6703302, type: 3}
       propertyPath: m_LocalPosition.z

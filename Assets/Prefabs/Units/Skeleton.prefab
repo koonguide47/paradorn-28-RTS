@@ -6105,6 +6105,7 @@ GameObject:
   - component: {fileID: -6089449998219367955}
   - component: {fileID: 210698820876162625}
   - component: {fileID: -7958987777917446294}
+  - component: {fileID: -624048359011206601}
   m_Layer: 6
   m_Name: Skeleton
   m_TagString: Unit
@@ -6157,7 +6158,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 7734abc4c1d892046b1f5e1a0b972e14, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -6242,7 +6243,7 @@ MonoBehaviour:
     gold: 20
     stone: 0
   unitWaitTime: 0.1
-  isBuilder: 0
+  isBuilder: 1
   builder: {fileID: 0}
 --- !u!114 &-7958987777917446294
 MonoBehaviour:
@@ -6256,6 +6257,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c9943f833e37747a4ad0ba8da4135e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-624048359011206601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7bc047144bd4e4f833b0f0b3365fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toBuild: 0
+  showGhost: 0
+  buildingList:
+  - {fileID: 5573768524490881403, guid: 0a5f7cfa0d5eae14c9336e264a9d53f0, type: 3}
+  - {fileID: 5573768524490881403, guid: f308cb227e952714aacc059101101350, type: 3}
+  ghostBuildingList:
+  - {fileID: 5573768524490881403, guid: 539e1f7dcd6f6fb4281845f9a7583d02, type: 3}
+  - {fileID: 5573768524490881403, guid: fc43ae74a0806a740a7723c5053163c3, type: 3}
+  newBuilding: {fileID: 0}
+  ghostBuilding: {fileID: 0}
+  inProgressBuilding: {fileID: 0}
 --- !u!1001 &4452365577838587603
 PrefabInstance:
   m_ObjectHideFlags: 0

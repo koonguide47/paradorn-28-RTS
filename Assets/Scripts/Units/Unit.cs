@@ -9,6 +9,8 @@ public enum UnitState
     Idle,
     Move,
     Attack,
+    MoveToBuild,
+    BuildProgress,
     Die
 }
 
@@ -88,6 +90,9 @@ public class Unit : MonoBehaviour
     private void Awake()
     {
         navAgent = GetComponent<NavMeshAgent>();
+
+        if (IsBuilder)
+            builder = GetComponent<Builder>();
     }
     
     // Start is called before the first frame update
@@ -143,5 +148,11 @@ public class Unit : MonoBehaviour
             SetState(UnitState.Idle);
     }
     
-    
+    public void LookAt(Vector3 pos)
+    {
+        Vector3 dir = (pos - transform.position).normalized;
+        float angle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
+        
+        transform.rotation = Quaternion.Euler(0f, angle, 0f);
+    }
 }

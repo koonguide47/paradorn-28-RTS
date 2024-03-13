@@ -39,11 +39,12 @@ public abstract class Structure : MonoBehaviour
     protected GameObject selectionVisual;
     public GameObject SelectionVisual { get { return selectionVisual; } }
 
-    [SerializeField] private StructureCost structureCost;
+    [SerializeField] 
+    private StructureCost structureCost;
     public StructureCost StructureCost
     {
-        get { return StructureCost; }
-        set { StructureCost = value; }
+        get { return structureCost; }
+        set { structureCost = value; }
     }
     
     
