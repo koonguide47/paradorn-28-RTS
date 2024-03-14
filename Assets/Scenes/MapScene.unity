@@ -10116,6 +10116,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -6424987432873327454, guid: 0a5f7cfa0d5eae14c9336e264a9d53f0, type: 3}
+      propertyPath: isFunctioal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6424987432873327454, guid: 0a5f7cfa0d5eae14c9336e264a9d53f0, type: 3}
       propertyPath: unitPrefabs.Array.size
       value: 3
       objectReference: {fileID: 0}
