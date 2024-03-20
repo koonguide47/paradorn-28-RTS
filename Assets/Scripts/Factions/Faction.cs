@@ -41,6 +41,10 @@ public class Faction : MonoBehaviour
     [SerializeField] private Transform ghostBuildingParent;
     public Transform GhostBuildingParent { get { return ghostBuildingParent; } }
     
+    [SerializeField]
+    private Transform startPosition; //start position for Faction
+    public Transform StartPosition { get { return startPosition; } }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -112,4 +116,14 @@ public class Faction : MonoBehaviour
         gold -= building.StructureCost.gold;
         stone -= building.StructureCost.stone;
     }
+    public Vector3 GetHQSpawnPos()
+    {
+        foreach (Building b in aliveBuildings)
+        {
+            if (b.IsHQ)
+                return b.SpawnPoint.position;
+        }
+        return startPosition.position;
+    }
+    
 }

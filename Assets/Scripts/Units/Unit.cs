@@ -74,11 +74,7 @@ public class Unit : MonoBehaviour
 
     [SerializeField] private Worker worker;
     public Worker Worker { get { return worker; } }
-    public Faction Faction
-    {
-        get { return faction; }
-        set { faction = value; }
-    }
+    public Faction Faction { get { return faction; } set { faction = value; } }
 
     [SerializeField] private GameObject selectionVisual;
     public GameObject SelectionVisual { get { return selectionVisual; } }
@@ -95,6 +91,14 @@ public class Unit : MonoBehaviour
 
     [SerializeField] private Builder builder;
     public Builder Builder { get { return builder; } }
+    
+    [SerializeField]
+    private float pathUpdateRate = 1.0f;
+    public float PathUpdateRate { get { return pathUpdateRate; } }
+
+    [SerializeField]
+    private float lastPathUpdateTime;
+    public float LastPathUpdateTime { get { return lastPathUpdateTime; } set { lastPathUpdateTime = value; } }
 
 
     private void Awake()
