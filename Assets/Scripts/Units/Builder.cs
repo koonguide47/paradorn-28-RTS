@@ -137,9 +137,7 @@ public class Builder : MonoBehaviour
         Building building = buildingObj.GetComponent<Building>();
 
         //Set building to be underground
-        buildingObj.transform.position = new Vector3(buildingObj.transform.position.x,
-            buildingObj.transform.position.y - building.IntoTheGround,
-            buildingObj.transform.position.z);
+        buildingObj.transform.position = new Vector3(buildingObj.transform.position.x,buildingObj.transform.position.y - building.IntoTheGround, buildingObj.transform.position.z);
         //Set building's parent game object
         buildingObj.transform.parent = unit.Faction.BuildingsParent.transform;
 
@@ -243,7 +241,6 @@ public class Builder : MonoBehaviour
             }
         }
     }
-    
     private void OnDestroy()
     {
         if (ghostBuilding != null)
