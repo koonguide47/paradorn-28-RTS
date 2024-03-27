@@ -42,12 +42,14 @@ public class Builder : MonoBehaviour
             {
                 if (EventSystem.current.IsPointerOverGameObject())
                     return;
-                
+
                 CheckClickOnGround();
             }
 
+
             if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
-                CancelToBuild();
+                    CancelToBuild();
+            
         }
 
         switch (unit.State)

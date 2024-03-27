@@ -4351,7 +4351,7 @@ MonoBehaviour:
   visualRange: 10
   weaponRange: 5
   state: 0
-  faction: {fileID: 0}
+  faction: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
   isWorker: 1
   worker: {fileID: 0}
   selectionVisual: {fileID: 4879054363457971263}
@@ -4363,6 +4363,12 @@ MonoBehaviour:
   unitWaitTime: 0.1
   isBuilder: 1
   builder: {fileID: 0}
+  pathUpdateRate: 1
+  lastPathUpdateTime: 0
+  curEnemyUnitTarget: {fileID: 0}
+  attackRate: 1
+  lastAttackTime: 0
+  defendRange: 30
 --- !u!114 &371733044435816629
 MonoBehaviour:
   m_ObjectHideFlags: 0

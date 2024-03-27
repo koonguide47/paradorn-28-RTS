@@ -27,10 +27,6 @@ public class FindBuildingSite : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     private void SetCanBuild(bool flag)
     {

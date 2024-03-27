@@ -69,14 +69,14 @@ public class Unit : MonoBehaviour
     public NavMeshAgent NavAgent { get { return navAgent; } }
 
     [SerializeField] private Faction faction;
+    public Faction Faction { get { return faction; } set { faction = value; } }
     
     [SerializeField] private bool isWorker;
     public bool IsWorker { get { return isWorker; } set { isWorker = value; } }
 
     [SerializeField] private Worker worker;
     public Worker Worker { get { return worker; } }
-    public Faction Faction { get { return faction; } set { faction = value; } }
-
+    
     [SerializeField] private GameObject selectionVisual;
     public GameObject SelectionVisual { get { return selectionVisual; } }
     
