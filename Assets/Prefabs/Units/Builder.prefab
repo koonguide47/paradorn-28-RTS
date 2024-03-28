@@ -4366,6 +4366,7 @@ MonoBehaviour:
   pathUpdateRate: 1
   lastPathUpdateTime: 0
   curEnemyUnitTarget: {fileID: 0}
+  curEnemyBuildingTarget: {fileID: 0}
   attackRate: 1
   lastAttackTime: 0
   defendRange: 30
@@ -4398,9 +4399,11 @@ MonoBehaviour:
   buildingList:
   - {fileID: 5573768524490881403, guid: 0a5f7cfa0d5eae14c9336e264a9d53f0, type: 3}
   - {fileID: 5573768524490881403, guid: f308cb227e952714aacc059101101350, type: 3}
+  - {fileID: 9168939824461634219, guid: cdff3100a53c2004691b5fd6e0836ca4, type: 3}
   ghostBuildingList:
   - {fileID: 5573768524490881403, guid: 539e1f7dcd6f6fb4281845f9a7583d02, type: 3}
   - {fileID: 5573768524490881403, guid: fc43ae74a0806a740a7723c5053163c3, type: 3}
+  - {fileID: 9168939824461634219, guid: 7bd11ad2dc594964e92e8a8f53bca6dc, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
