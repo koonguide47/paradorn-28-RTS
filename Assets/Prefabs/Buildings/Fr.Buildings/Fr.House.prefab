@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 7027332679537247506}
   - component: {fileID: 9034808820657041634}
   m_Layer: 7
-  m_Name: House
+  m_Name: Fr.House
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   structurePic: {fileID: 21300000, guid: db9958c0065b06643b55c96680268093, type: 3}
   curHP: 100
   maxHP: 100
-  faction: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
+  faction: {fileID: -4496205138939291735, guid: 1b060d40dd6ba2842b4fddef5c1ec952, type: 3}
   selectionVisual: {fileID: 9130770922798205339}
   structureCost:
     food: 0
@@ -132,8 +132,10 @@ MonoBehaviour:
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctioal: 1
+  isFunctioal: 0
   isHQ: 0
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
 --- !u!65 &5849718314562758371
 BoxCollider:

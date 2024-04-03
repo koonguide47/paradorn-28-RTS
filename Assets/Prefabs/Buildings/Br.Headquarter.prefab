@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 7027332679537247506}
   - component: {fileID: 9034808820657041634}
   m_Layer: 7
-  m_Name: Headquarter
+  m_Name: Br.Headquarter
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,8 +160,6 @@ MonoBehaviour:
   spawnPoint: {fileID: 1655317186168946476}
   rallyPoint: {fileID: 3736475155980447781}
   unitPrefabs:
-  - {fileID: 186328, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
-  - {fileID: 197842, guid: 2168695577a8d3f4eb919edbd5249635, type: 3}
   - {fileID: 1695133974116794, guid: e5b64b98570ff994e899fa77f5439809, type: 3}
   recruitList: []
   unitTimer: 0
@@ -169,6 +167,8 @@ MonoBehaviour:
   curUnitWaitTime: 0
   isFunctioal: 1
   isHQ: 1
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
 --- !u!65 &5849718314562758371
 BoxCollider:
