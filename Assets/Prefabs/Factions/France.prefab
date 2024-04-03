@@ -72,6 +72,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6911265403836052174}
   - component: {fileID: -4496205138939291735}
+  - component: {fileID: 2489868338054890815}
+  - component: {fileID: -7961217766533567589}
+  - component: {fileID: -4419789959672170613}
+  - component: {fileID: -8175032790695786369}
+  - component: {fileID: -7435692353931448881}
   m_Layer: 0
   m_Name: France
   m_TagString: Untagged
@@ -130,6 +135,88 @@ MonoBehaviour:
   unitPrefabs:
   - {fileID: 1695133974116794, guid: e5b64b98570ff994e899fa77f5439809, type: 3}
   - {fileID: 2380994480556965535, guid: e55dc584d3723cc45a63b61afb072095, type: 3}
+--- !u!114 &2489868338054890815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908040002645487515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efc9a9e94f4c3747b663eef6a39be6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkRate: 1
+  curHQ: {fileID: 0}
+  curBarrack: {fileID: 0}
+  curHunterLodge: {fileID: 0}
+  unfinishedBuilding: {fileID: 0}
+  specificBuilder: {fileID: 0}
+--- !u!114 &-7961217766533567589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908040002645487515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3880a7f68a17a4da7440097176dbd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bestAI: {fileID: 0}
+  bestAiValue: 0
+  randomRate: 0.3
+  frequency: 2
+--- !u!114 &-4419789959672170613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908040002645487515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618a692bd65f6b84a85cc652173c1787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fighters: []
+  builders: []
+  workers: []
+  faction: {fileID: 0}
+--- !u!114 &-8175032790695786369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908040002645487515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c46d3b9e44c944c836bd4347a0065f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+--- !u!114 &-7435692353931448881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5908040002645487515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450f64b4537b73046bd454ceff93d9fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+  fightersRequired: 4
+  increasePerWave: 1
+  squadSize: 0.5
+  timeLimit: 5
 --- !u!1 &6129449728923808800
 GameObject:
   m_ObjectHideFlags: 0

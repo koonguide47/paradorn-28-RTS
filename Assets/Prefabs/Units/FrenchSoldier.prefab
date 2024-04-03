@@ -9,8 +9,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -1869904352679337846, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
+      propertyPath: faction
+      value: 
+      objectReference: {fileID: -4496205138939291735, guid: 1b060d40dd6ba2842b4fddef5c1ec952, type: 3}
+    - target: {fileID: -1869904352679337846, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
+      propertyPath: isWorker
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1869904352679337846, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
       propertyPath: unitName
       value: Fr. Regular
+      objectReference: {fileID: 0}
+    - target: {fileID: -1869904352679337846, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
+      propertyPath: isBuilder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 142820, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
       propertyPath: m_IsActive

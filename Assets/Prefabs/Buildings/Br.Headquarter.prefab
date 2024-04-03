@@ -165,7 +165,7 @@ MonoBehaviour:
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctioal: 1
+  isFunctioal: 0
   isHQ: 1
   isHousing: 0
   isBarrack: 0

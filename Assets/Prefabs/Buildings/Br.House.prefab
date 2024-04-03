@@ -132,7 +132,7 @@ MonoBehaviour:
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctioal: 1
+  isFunctioal: 0
   isHQ: 0
   isHousing: 1
   isBarrack: 0
