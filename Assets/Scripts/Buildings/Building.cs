@@ -166,10 +166,10 @@ public class Building : Structure
     {
         int id = recruitList[0].ID;
 
-        if (unitPrefabs[id] == null)
+        if (faction.unitPrefabs[id] == null)
             return;
 
-        GameObject unitObj = Instantiate(unitPrefabs[id],
+        GameObject unitObj = Instantiate(faction.unitPrefabs[id],
                                         spawnPoint.position, 
                                  Quaternion.Euler(0f, 180f, 0f),
                                         faction.UnitsParent);

@@ -51,7 +51,7 @@ public class Faction : MonoBehaviour
     [SerializeField] private GameObject[] buildingPrefabs;
     public GameObject[] BuildingPrefabs { get { return buildingPrefabs; } }
 
-    [SerializeField] private GameObject[] unitPrefabs;
+    [SerializeField] public GameObject[] unitPrefabs;
     public GameObject[] UnitPrefabs { get { return unitPrefabs; } }
     
     // Start is called before the first frame update
@@ -217,5 +217,27 @@ public class Faction : MonoBehaviour
             unitLimit = 0;
 
         MainUI.instance.UpdateAllResource(this);
+    }
+    
+    public bool CheckUnitCost(int i)
+    {
+        Unit unit = unitPrefabs[i].GetComponent<Unit>();
+
+        if (unit == null)
+            return false;
+
+        if (food < unit.UnitCost.food)
+            return false;
+
+        if (wood < unit.UnitCost.wood)
+            return false;
+
+        if (gold < unit.UnitCost.gold)
+            return false;
+
+        if (stone < unit.UnitCost.stone)
+            return false;
+
+        return true;
     }
 }
