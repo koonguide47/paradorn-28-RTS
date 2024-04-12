@@ -5,6 +5,14 @@ using UnityEngine;
 public class AIController : MonoBehaviour
 {
     
+    public float randomRate = 0.3f;
+    public float frequency = 0.1f;
+
+    private float waited = 0;
+
+    private AISupport AiSupport;
+    private List<AIBehaviour> AIs = new List<AIBehaviour>();
+    
     [SerializeField]
     private AIBehaviour bestAI;
 
@@ -59,11 +67,4 @@ public class AIController : MonoBehaviour
         waited = 0;
     }
     
-    public float randomRate = 0.3f;
-    public float frequency = 2f;
-
-    private float waited = 0;
-
-    private AISupport AiSupport;
-    private List<AIBehaviour> AIs = new List<AIBehaviour>();
 }

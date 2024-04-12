@@ -71,7 +71,7 @@ MonoBehaviour:
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctioal: 0
+  isFunctioal: 1
   isHQ: 0
   isHousing: 0
   isBarrack: 1

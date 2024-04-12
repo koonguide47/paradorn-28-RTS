@@ -132,6 +132,11 @@ MonoBehaviour:
   - {fileID: 5573768524490881403, guid: 558a86a43a857034f864373842cf50b8, type: 3}
   - {fileID: 2111022839485290420, guid: 9055a9f874591514683c60843d4200b2, type: 3}
   - {fileID: 3323033378646720430, guid: 1d32907ba360b384f801176b328b7f74, type: 3}
+  ghostBildingPrefabs:
+  - {fileID: 3323033378646720430, guid: 85afae6a25e51154885070e198648e77, type: 3}
+  - {fileID: 2111022839485290420, guid: dce1c92e6f688354ca9f307227540eda, type: 3}
+  - {fileID: 5573768524490881403, guid: b97932c32b5650e48a2e58389b54b01f, type: 3}
+  - {fileID: 5573768524490881403, guid: 45dab6107c7762a4cb91fffee771e69f, type: 3}
   unitPrefabs:
   - {fileID: 1695133974116794, guid: e5b64b98570ff994e899fa77f5439809, type: 3}
   - {fileID: 2380994480556965535, guid: e55dc584d3723cc45a63b61afb072095, type: 3}
@@ -165,10 +170,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3880a7f68a17a4da7440097176dbd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bestAI: {fileID: 0}
-  bestAiValue: 0
   randomRate: 0.3
   frequency: 2
+  bestAI: {fileID: 0}
+  bestAiValue: 0
 --- !u!114 &-4419789959672170613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +189,9 @@ MonoBehaviour:
   fighters: []
   builders: []
   workers: []
+  hq: []
+  houses: []
+  barracks: []
   faction: {fileID: 0}
 --- !u!114 &-8175032790695786369
 MonoBehaviour:

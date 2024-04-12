@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Cameracontroller : MonoBehaviour
-{
+{            
     [SerializeField] private Camera cam;
     public Camera Cam
     {
@@ -14,7 +14,10 @@ public class Cameracontroller : MonoBehaviour
     [Header("Move")] private float moveSpeed;
 
     [SerializeField] private Transform corner1;
+    public Transform Corner1 { get { return corner1; } }
+    
     [SerializeField] private Transform corner2;
+    public Transform Corner2 { get { return corner2; } }
     
     [SerializeField] private float xInput;
     [SerializeField] private float zInput;

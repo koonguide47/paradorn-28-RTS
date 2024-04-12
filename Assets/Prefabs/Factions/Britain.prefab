@@ -127,6 +127,11 @@ MonoBehaviour:
   - {fileID: 5573768524490881403, guid: f308cb227e952714aacc059101101350, type: 3}
   - {fileID: 2111022839485290420, guid: 459ba0795fee1ce42aa063c09fc5b7f5, type: 3}
   - {fileID: 3323033378646720430, guid: 283c01288a5df4b46818905bfd7d2a71, type: 3}
+  ghostBildingPrefabs:
+  - {fileID: 3323033378646720430, guid: 1eb53fb254bbb4e4c81fbda64d70698c, type: 3}
+  - {fileID: 2111022839485290420, guid: b9f3a415943b58f4382605dbeb069a9a, type: 3}
+  - {fileID: 5573768524490881403, guid: 539e1f7dcd6f6fb4281845f9a7583d02, type: 3}
+  - {fileID: 5573768524490881403, guid: fc43ae74a0806a740a7723c5053163c3, type: 3}
   unitPrefabs:
   - {fileID: 1695133974116794, guid: e5b64b98570ff994e899fa77f5439809, type: 3}
   - {fileID: 186328, guid: 01965bd7565eba44abd110f65e8fa5bd, type: 3}
