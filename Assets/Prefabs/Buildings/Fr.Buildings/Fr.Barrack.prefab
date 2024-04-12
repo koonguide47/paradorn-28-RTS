@@ -71,10 +71,10 @@ MonoBehaviour:
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctioal: 0
+  isFunctioal: 1
   isHQ: 0
   isHousing: 0
-  isBarrack: 0
+  isBarrack: 1
   intoTheGround: 5
 --- !u!65 &54239854051205743
 BoxCollider:
