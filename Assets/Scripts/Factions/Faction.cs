@@ -207,6 +207,7 @@ public class Faction : MonoBehaviour
     public void UpdateHousingLimit()
     {
         unitLimit = 6; //starting unit Limit
+        unitLimit = 6; //starting unit Limit
 
         foreach (Building b in aliveBuildings)
         {
