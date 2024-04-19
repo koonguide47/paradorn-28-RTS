@@ -107,4 +107,9 @@ public class Cameracontroller : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation,
             newRotation, Time.deltaTime * moveSpeed);
     }
+    
+    public void FocusOnPosition(Vector3 pos)
+    {
+        transform.position = pos;
+    }
 }
