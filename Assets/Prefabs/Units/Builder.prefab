@@ -4275,7 +4275,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 7734abc4c1d892046b1f5e1a0b972e14, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -4401,10 +4401,12 @@ MonoBehaviour:
   - {fileID: 5573768524490881403, guid: 0a5f7cfa0d5eae14c9336e264a9d53f0, type: 3}
   - {fileID: 5573768524490881403, guid: f308cb227e952714aacc059101101350, type: 3}
   - {fileID: 2111022839485290420, guid: 459ba0795fee1ce42aa063c09fc5b7f5, type: 3}
+  - {fileID: 3323033378646720430, guid: 283c01288a5df4b46818905bfd7d2a71, type: 3}
   ghostBuildingList:
   - {fileID: 5573768524490881403, guid: 539e1f7dcd6f6fb4281845f9a7583d02, type: 3}
   - {fileID: 5573768524490881403, guid: fc43ae74a0806a740a7723c5053163c3, type: 3}
   - {fileID: 2111022839485290420, guid: b9f3a415943b58f4382605dbeb069a9a, type: 3}
+  - {fileID: 3323033378646720430, guid: 1eb53fb254bbb4e4c81fbda64d70698c, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
