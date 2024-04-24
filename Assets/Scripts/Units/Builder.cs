@@ -88,7 +88,7 @@ public class Builder : MonoBehaviour
     {
         if (showGhost)
         {
-            Ray ray = Cameracontroller.instance.Cam.ScreenPointToRay(Input.mousePosition);
+            Ray ray = CameraController.instance.Cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, 1000, LayerMask.GetMask("Ground")))
@@ -167,7 +167,7 @@ public class Builder : MonoBehaviour
     
     private void CheckClickOnGround()
     {
-        Ray ray = Cameracontroller.instance.Cam.ScreenPointToRay(Input.mousePosition);
+        Ray ray = CameraController.instance.Cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit))

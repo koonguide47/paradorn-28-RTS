@@ -54,6 +54,7 @@ GameObject:
   - component: {fileID: 4585212666000023096}
   - component: {fileID: 1957411725552457776}
   - component: {fileID: 8656360642003691150}
+  - component: {fileID: -5688813324486898140}
   m_Layer: 7
   m_Name: Fr.FortTower
   m_TagString: Building
@@ -187,6 +188,18 @@ MonoBehaviour:
   shootRange: 50
   shootDamage: 10
   state: 0
+--- !u!114 &-5688813324486898140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111022839485290420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d46d3d2664937f45bcf6dfb3c19d692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &542422914100254730
 PrefabInstance:
   m_ObjectHideFlags: 0

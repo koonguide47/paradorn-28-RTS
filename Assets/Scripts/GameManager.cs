@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         MainUI.instance.UpdateAllResource(myFaction);
-        Cameracontroller.instance.FocusOnPosition(myFaction.StartPosition.position);
+        CameraController.instance.FocusOnPosition(myFaction.StartPosition.position);
     }
 
     // Update is called once per frame

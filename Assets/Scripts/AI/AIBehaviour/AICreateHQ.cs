@@ -103,10 +103,10 @@ public class AICreateHQ : AIBehaviour
                 Vector3 pos = unit.transform.position;
                 pos += Random.insideUnitSphere * rangeFromStartPos;
 
-                float Corner1PosX = Cameracontroller.instance.Corner1.position.x;
-                float Corner2PosX = Cameracontroller.instance.Corner2.position.x;
-                float Corner1PosZ = Cameracontroller.instance.Corner1.position.z;
-                float Corner2PosZ = Cameracontroller.instance.Corner2.position.z;
+                float Corner1PosX = CameraController.instance.Corner1.position.x;
+                float Corner2PosX = CameraController.instance.Corner2.position.x;
+                float Corner1PosZ = CameraController.instance.Corner1.position.z;
+                float Corner2PosZ = CameraController.instance.Corner2.position.z;
 
                 //Clamp pos to be in a map
                 pos = new Vector3(Mathf.Clamp(pos.x, Corner1PosX, Corner2PosX),

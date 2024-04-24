@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 5849718314562758371}
   - component: {fileID: 7027332679537247506}
   - component: {fileID: 9034808820657041634}
+  - component: {fileID: 6796240816790842691}
   m_Layer: 7
   m_Name: Fr.House
   m_TagString: Building
@@ -201,6 +202,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &6796240816790842691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5573768524490881403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d46d3d2664937f45bcf6dfb3c19d692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5925537051660759130
 GameObject:
   m_ObjectHideFlags: 0

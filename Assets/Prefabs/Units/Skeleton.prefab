@@ -6106,6 +6106,7 @@ GameObject:
   - component: {fileID: 210698820876162625}
   - component: {fileID: -7958987777917446294}
   - component: {fileID: -624048359011206601}
+  - component: {fileID: -2504151234098084850}
   m_Layer: 6
   m_Name: Skeleton
   m_TagString: Unit
@@ -6236,6 +6237,8 @@ MonoBehaviour:
   weaponRange: 15
   state: 0
   faction: {fileID: 0}
+  isWorker: 0
+  worker: {fileID: 0}
   selectionVisual: {fileID: 5215583552385945123}
   unitCost:
     food: 50
@@ -6245,6 +6248,13 @@ MonoBehaviour:
   unitWaitTime: 0.1
   isBuilder: 1
   builder: {fileID: 0}
+  pathUpdateRate: 1
+  lastPathUpdateTime: 0
+  curEnemyUnitTarget: {fileID: 0}
+  curEnemyBuildingTarget: {fileID: 0}
+  attackRate: 1
+  lastAttackTime: 0
+  defendRange: 30
 --- !u!114 &-7958987777917446294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6280,6 +6290,18 @@ MonoBehaviour:
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}
+--- !u!114 &-2504151234098084850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d46d3d2664937f45bcf6dfb3c19d692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4452365577838587603
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -4222,6 +4222,7 @@ GameObject:
   - component: {fileID: 371733044435816629}
   - component: {fileID: 1040388888085940275}
   - component: {fileID: -1362192055265413780}
+  - component: {fileID: 2920342760884127365}
   m_Layer: 6
   m_Name: Builder
   m_TagString: Unit
@@ -4425,6 +4426,18 @@ MonoBehaviour:
   amountCarry: 0
   maxCarry: 25
   carryType: 0
+--- !u!114 &2920342760884127365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695133974116794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d46d3d2664937f45bcf6dfb3c19d692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1700840647468542
 GameObject:
   m_ObjectHideFlags: 0

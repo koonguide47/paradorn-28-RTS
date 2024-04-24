@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 54239854051205743}
   - component: {fileID: 3709745892612457621}
   - component: {fileID: -7725546273823535825}
+  - component: {fileID: 269668030621324100}
   m_Layer: 7
   m_Name: Fr.Barrack
   m_TagString: Building
@@ -139,6 +140,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 94
   m_CollisionDetection: 0
+--- !u!114 &269668030621324100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3323033378646720430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d46d3d2664937f45bcf6dfb3c19d692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5898282132546206811
 GameObject:
   m_ObjectHideFlags: 0

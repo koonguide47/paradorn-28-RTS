@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cameracontroller : MonoBehaviour
+public class CameraController : MonoBehaviour
 {            
     [SerializeField] private Camera cam;
     public Camera Cam
@@ -33,7 +33,7 @@ public class Cameracontroller : MonoBehaviour
     [SerializeField] private Quaternion newRotation;
 
 
-    public static Cameracontroller instance;
+    public static CameraController instance;
 
     private void Awake()
     {
