@@ -10608,6 +10608,10 @@ PrefabInstance:
       propertyPath: isFunctioal
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6424987432873327454, guid: 0a5f7cfa0d5eae14c9336e264a9d53f0, type: 3}
+      propertyPath: curUnitProgress
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5573768524490881403, guid: 0a5f7cfa0d5eae14c9336e264a9d53f0, type: 3}
       propertyPath: m_Name
       value: Br.Headquarter
@@ -13635,7 +13639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4496205138939291735, guid: 1b060d40dd6ba2842b4fddef5c1ec952, type: 3}
       propertyPath: aliveUnits.Array.size
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4496205138939291735, guid: 1b060d40dd6ba2842b4fddef5c1ec952, type: 3}
       propertyPath: unitPrefabs.Array.size
@@ -14290,7 +14294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
       propertyPath: buildingPrefabs.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
       propertyPath: aliveBuildings.Array.data[0]
@@ -14300,6 +14304,14 @@ PrefabInstance:
       propertyPath: aliveBuildings.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
+      propertyPath: buildingPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 2111022839485290420, guid: 459ba0795fee1ce42aa063c09fc5b7f5, type: 3}
+    - target: {fileID: -4496205138939291735, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
+      propertyPath: buildingPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 3323033378646720430, guid: 283c01288a5df4b46818905bfd7d2a71, type: 3}
     - target: {fileID: 4615552691332586843, guid: e3ae66145b4a96f4b95d61626aac5864, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.26

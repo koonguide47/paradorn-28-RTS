@@ -60,6 +60,7 @@ public class Faction : MonoBehaviour
     
     private int unitLimit = 6; //Initial unit limit
     public int UnitLimit { get { return unitLimit; } }
+    
     private int housingUnitNum = 5; //number of units per each housing
     public int HousingUnitNum { get { return housingUnitNum; } }
     
@@ -208,7 +209,6 @@ public class Faction : MonoBehaviour
     public void UpdateHousingLimit()
     {
         unitLimit = 6; //starting unit Limit
-        unitLimit = 6; //starting unit Limit
 
         foreach (Building b in aliveBuildings)
         {
@@ -223,7 +223,7 @@ public class Faction : MonoBehaviour
         else if (unitLimit < 0)
             unitLimit = 0;
         
-        if (this == GameManager.instance.MyFaction) 
+        if (this == GameManager.instance.MyFaction)
             MainUI.instance.UpdateAllResource(this);
     }
     
