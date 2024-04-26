@@ -28,6 +28,7 @@ public class UnitAnimation : MonoBehaviour
         anim.SetBool("IsBuildProgress", false);
         anim.SetBool("IsMoveToResource", false);
         anim.SetBool("IsMoveToBuild", false);
+        anim.SetBool("IsDie", false);
 
         switch (u.State)
         {
@@ -51,6 +52,9 @@ public class UnitAnimation : MonoBehaviour
                 break;
             case UnitState.MoveToBuild:
                 anim.SetBool("IsMoveToBuild", true);
+                break;
+            case UnitState.Die:
+                anim.SetBool("IsDie", true);
                 break;
         }
     }
